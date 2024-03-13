@@ -1,0 +1,82 @@
+section{
+    padding: 16px;
+}
+
+.movie-info{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.movie-info img{
+    width: 300px;
+}
+
+.info h5{
+    font-size: 1.2rem;
+}
+
+.rating{
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.rating .rate{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.btns button{
+    padding: 12px;
+    background-color: powderblue;
+    color: black;
+    border-radius: 10px;
+}
+
+.btns button a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.rate-modal-hide{
+    display: none !important;
+}
+
+.rate-modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(212, 211, 211);
+    width: 50%;
+    padding: 2rem;
+    /* min-height: 30vh; */
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+    
+}
+
+.rate-modal .rt{
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #585757;
+}
+
+.rate-modal .num{
+    font-size: 3rem;
+}
+
+.rate-modal .submit{
+    padding: 0.7rem;
+    background-color: black;
+    color: white;
+    border:none;
+    border-radius:10px;
+    margin: 2rem;
+}
+
